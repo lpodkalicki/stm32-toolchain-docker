@@ -15,7 +15,6 @@ RUN apk --no-cache add ca-certificates wget make cmake stlink \
 	&& rm glibc-2.29-r0.apk
 
 # Install STM32 toolchain
-#ARG TOOLCHAIN_TARBALL_URL="https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2019q3/RC1.1/gcc-arm-none-eabi-8-2019-q3-update-linux.tar.bz2"
 ARG TOOLCHAIN_TARBALL_URL="https://developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2"
 
 ARG TOOLCHAIN_PATH=${TOOLS_PATH}/toolchain
