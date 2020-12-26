@@ -19,7 +19,7 @@ docker build --rm -t lpodkalicki/stm32-toolchain:latest .
 ## An example of running toolchain binary
 
 ```bash
-docker run --rm --privileged -v $(pwd):/build lpodkalicki/stm32-toolchain arm-none-eabi-cpp -version
+docker run --rm --privileged -v $(pwd):/build lpodkalicki/stm32-toolchain arm-none-eabi-cpp --version
 ```
 
 # Installing
