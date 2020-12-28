@@ -44,5 +44,6 @@ $ stm32-toolchain arm-none-eabi-cpp --version
 $ stm32-toolchain st-flash --version
 $ stm32-toolchain make -version
 $ stm32-toolchain cmake -version
-$ stm32-toolchain make && make flash
+$ stm32-toolchain cmake -Bbuild .
+$ stm32-toolchain make --directory build
 ```
