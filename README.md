@@ -1,10 +1,10 @@
 # Overview
 
-Lightweight docker image built on top of **alpine:3.10** with installed ARM-none-eabi toolchain and few additional tools:
-* ARM-none-eabi toolchain (2020; GNU Tools for Arm Embedded Processors 9-2020-q2-update)
-* stlink (v1.5)
-* make (v4.2)
-* cmake (v3.14)
+Lightweight docker image built on top of **alpine** with installed ARM-none-eabi toolchain and few additional tools:
+* ARM-none-eabi toolchain
+* stlink
+* make
+* cmake
 
 DockerHub: https://hub.docker.com/r/lpodkalicki/stm32-toolchain
 
